@@ -19,10 +19,10 @@
     <p id="description">Thank you for taking the time to help us improve the platform</p>
       <label id="name-label" for="name">Name <input id="name" required name="Name"placeholder="Jane Doe"type="text"/></label>
       <label id="email-label" for="email">Email <input id="email" required name="Email"placeholder="example@company.com"type="email"/></label>
-      <label id="number-label"for="number">Age <input id="number" name="Age"placeholder="21"type="number"min=13 max=120 /></label>
+      <label id="number-label"for="number">Age <input id="number" required name="Age"placeholder="21"type="number"min=13 max=120 /></label>
 
       <label for="current-role">Which option best describes your current role?
-        <select id="current-role" name="current-role">
+        <select required id="current-role" name="current-role">
           <option value="">(select one)</option>
           <option value="1">Student</option>
           <option value="2">Employed(Full Time)</option>
@@ -39,7 +39,7 @@
       </label>
 
       <label for="dropdown">What is your favorite feature of freeCodeCamp?
-        <select id="dropdown" >
+        <select required id="dropdown" >
           <option value="">select one</option>
           <option value="1">Challenges</option>
           <option value="2">Projects</option>
