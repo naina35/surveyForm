@@ -1,0 +1,58 @@
+fieldset{
+    border:none;
+}
+body{
+    margin:0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image:url(flowers-trees-Bushes-grass-1916565-wallhere.com.jpg);
+    background-position: center;
+    font-size:14px;
+    height:100vh;
+}
+form{
+    margin:0 auto;
+    background-color:rgba(255, 251, 255, 0.7);
+    max-width:800px;
+    width:100%;
+    min-width:100px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+h1,p{
+    font-family: "Stylish", serif;
+    font-style:normal;
+    text-align: center;
+    margin: 0.5em auto;
+}
+p{
+    font-size: 1.2rem;
+}
+textarea{
+    background-color: rgba(250, 235, 215,0.6);
+    margin:auto;
+    display:block;
+}
+input,select,textarea{
+    width:80%;
+     height:20px; 
+    display: block;
+    padding-left:10px;
+    margin:10px 0 0 0;
+}
+label{
+    display:block;
+    margin-left:10%;
+}
+.inline{
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+    display: inline; 
+}
+legend{
+    margin-left:8.5%;
+    
+}
+textarea{
+    height:100%;
+}
